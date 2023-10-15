@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+.services
+{
+    background-color: burlywood;
+    text-align: center;
+    text-shadow: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.gservices
+{
+    background-color:lightskyblue;
+    text-align: center;
+    text-shadow: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.mservices
+{
+    background-color:lightgrey;
+    border-radius: auto;
+    text-align: center;
+    text-shadow: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.new_card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 12em; /* Set a maximum height (2em is roughly equivalent to one line of text) */
+    overflow: hidden; /* Hide any overflowing content */
+    white-space: nowrap; /* Prevent line breaks */
+    text-overflow: ellipsis;
+}
+
+/* Optional: On hover, reveal the full content */
+.new_card:hover {
+    max-height: none; /* Remove the maximum height */
+    overflow: visible; /* Show all content */
+    white-space: normal; /* Allow line breaks */
+    text-overflow: initial; 
+}
+
+.jj
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.chinnavi
+{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    font-weight: 200;
+    text-align: center;
+}
